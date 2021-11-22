@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+<!-- pour utiliser les images -->
+<figure>
+	
+	
+</figure>
+<figcaption></figcaption>
+<img src="pictures/logo.png"
+title="ceci est mon logo" 
+alt="logo" <!-- en cas de burg pour savoir ce qui est la ou pour google -->
+/>
+
+<!-- les selecteurs -->
+h1, a{
+	tout les h1 et les a ...
+}
+
+p a {
+	dans les paragraphes tout les liens  b
+}
+
+a[title]{
+	tout les liens qui ont un attribu title ...
+	si on veut un seul on precise . 
+}
+
+<!-- taille de police -->
+x{
+	font-size
+}
+taille absolue 
+en px
+
+taille relative
+trois facon de les utiliser
+ -> xx-small x-small ; small medium large x-large xx-large
+ -> 1 em (taille normal) 0.5 ,,;1.1 
+
+ <!-- modifier une police -->
+ 
+font-family: ;
+
+<!-- souligner et autre -->
+
+font-weight: bold; 3
+    /* gras pour annuler normal */
+    font-style: italic;
+    /* pour italic */
+    text-decoration: ;
+    /*  souligner none etc*/
+
+	/* <!-- aligner un texte --> */
+
+	text-align: center ,left,right,justify;
+
+pour gerer les ul
+	ul{
+		padding: 0;
+		/* pour suprimer les decalage de ul */
+	
+	}
+	li {
+		list-style-type:none ;
+			/* pour suprimer les.. */
+	
+	}
+	/* les flotant */
+
+/* 
+	les bordure */
+	h1{
+		border:largeur[px] ,couleur , type de bordure [solid,double,none,etc] ;
+		border-bottom: en bas
+		/* border-radius: marche uniquement sil ya border  */
+		pour arrondirer les angles
+	}
+
+	lesombres 
+	h1{
+		box-shadow: decalage horizontale/ vertical / adoucicment /color /inset [interieur] outset [exterieur];
+	}
+/* survol */ 
+lorsaue la souris passe dessus
+	h1:hover{
+		color:red;
+	}
+	h1:active{
+
+	}
+	/* tabulation */
+	a:focus{
+		color: red;
+	}
+	a:visited{
+		lorquon clic dessus
+	}
+/* poour aligner  */
+a{
+	display: inligne;
+	/* pour ecrire en dessous */
+	f{
+		display: block;
+	}
+}
+
+les DIMENSIONS
+h1{
+	height: vertical;px
+	width: horizontal;
+	min-width: none;
+	max-widht: ;
+}
+
+LES POSITIONS DES ELEEMNT
+h1{
+	position: relative (ajustement),aboslue [au dessus de ],fixed (il bouge a la fois avec le
+	lement);
+	left: ,,,;
+	:right,,,
+}
+FLEX BOX
+
+.conteneur {
+	display: flex; 
+	/* pour les mettres sur la meme ligne */
+	flex-direction: column;
+	/* pour faire en colone  ou colone reverse*/
+	pour forcer le retour a la line-gap-override: ;
+	flex-wrap: wrap;
+	/* pour revenir a la ligne */
+	justify-content:  flex-end[a la fin] flex-start space-between[] ;
+
+}
+
+
+	
+</body>
+</html>

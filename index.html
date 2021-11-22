@@ -2,19 +2,28 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>first_project</title>
+	<link rel="stylesheet" type="text/css" href="design/style.css" />
+	<!-- google -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Explora&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Sans+Display:ital,wght@1,100&family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
 			<!-- header -->
 	<header>
-		<h1>Jean Bosson </h1>
-		<h2>developpeur aspirant front-end & ... a mes heures perdue</h2>
+		<h1> Ivoire design </h1>
+		<!-- span -->
+		<span class="separator"></span>
+
+		<h2>Impression sur tout tout support</h2>
 
 				<!-- logo -->
-			<figure>
-				<img src="pictures/logo.png" alt="logo" title="ceci est mon logo"
- 				/>
- 				<figcaption>logo</figcaption>
+			<figure >
+				<img src="pictures/ivoiredesign.jpeg" alt="logo" title="ceci est mon logo"
+				id="logo"/>
  			</figure>
 	</header>
 
@@ -22,21 +31,120 @@
 	<nav>		
 		<ul>
 			<li><a href="index2.html" title="allé a l'index2" target="_blank">Accueil</a></li>
-			<li><a hre="#projts" >Projets</a></li>
-			<li><a href="">Contact</a></li>
+			<li><a href="#projts" title="accueil 2">Projets</a></li>
+			<li><a href="#contact" title="contact">Contact</a></li>
 		</ul>
 	</nav>
 
-	<section>
-			<h3> bienvenue </h3>
-		<p>je reproduit des <u>design</u> selon le design et je <b>confection</b> des tee shirt pendant mes <em>week-end</em> </p>
-	</section>
-	 
-	 <section>
-	 	<h3>Contact</h3>
-	 		<!-- description -->
-	 		<p>Si vous voulez me contacter n'esiter pas a menvoyer un mail à <a href="mailto:bossonjean95@gmail.com">bossonjean95@gmail.com</a> </p>
-	 </section>
+	<div class="contener">
+
+		<section class="bienvenue">
+				<h3> bienvenue </h3>
+			<p>nous sommes une entreprise d'impression sur tout type de support, nos prestations porte sur </p>
+			<ul>
+				<li>tee shirt et casquette</li>
+				<li>tasses et gourdes </li>
+				<li>baches,vynile auto-collant</li>
+			</ul>
+		</section>
+				<!-- projet -->
+		<section>
+			<h3>Projets</h3>
+		</section>
+		<!-- conteneur -->
+		<div id="projets">
+			<div class="projet">
+				<a href="index2.html">
+					<div class="picture">
+						<img src="pictures/illustration_1.png" alt="mon premier projet">
+
+					</div>
+					<div class="span">
+						<span>le titre du projet</span>
+						<span class="date-project">11/10/2021</span>
+				</div>
+				</a>
+			</div>
+
+			<div class="projet">
+				<a href="index2.html">
+					<div class="picture">
+						<img src="pictures/illustration_2.jpg" alt="mon premier projet">
+
+					</div>
+					<div class="span">
+						<span>le titre du projet</span>
+						<span class="date-project">11/10/2021</span>
+				</div>
+				</a>
+			</div>
+
+			<div class="projet">
+				<a href="index2.html">
+					<div class="picture">
+						<img src="pictures/illustration_3.jpg" alt="mon premier projet">
+
+					</div>
+					<div class="span">
+						<span>le titre du projet</span>
+						<span class="date-project">11/10/2021</span>
+				</div>
+				</a>
+
+
+			</div>
+
+			<div class="projet">
+				<a href="index2.html">
+					<div class="picture">
+						<img src="pictures/illustration_4.jpg" alt="mon premier projet">
+
+					</div>
+					<div class="span">
+						<span>le titre du projet</span>
+						<span class="date-project">11/10/2021</span>
+				</div>
+				</a>
+
+
+			</div>
+
+			<div class="projet">
+				<a href="index2.html">
+					<div class="picture">
+						<img src="pictures/illustration_5.jpg" alt="mon premier projet">
+
+					</div>
+					<div class="span">
+						<span>le titre du projet</span>
+						<span class="date-project">11/10/2021</span>
+				</div>
+				</a>
+			</div>
+
+			<div class="projet">
+				<a href="index2.html">
+					<div class="picture">
+						<img src="pictures/illustration_6.jpg" alt="mon premier projet">
+
+					</div>
+					<div class="span">
+						<span>le titre du projet</span>
+						<span class="date-project">11/10/2021</span>
+				</div>
+				</a>
+			</div>
+
+		</div>
+		
+		<section > 
+			<h3>Contact</h3>
+			<div id="contact">
+				<!-- description -->
+				<p>Si vous voulez me contacter n'esiter pas a menvoyer un mail à <b><a href="mailto:bossonjean95@gmail.com">bossonjean95@gmail.com</a></b> </p>
+			</div>
+		</section>
+	</div>
 			<!-- footer -->
 	<footer>
 		<span>2018 &copy; Jean Bosson </span>
