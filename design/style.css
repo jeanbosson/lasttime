@@ -1,0 +1,233 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F4F7F6;
+    margin: 0%;
+    /* background-image: url(le liens);
+    background-attachment: fixed;  */
+    /* background-repeat: repeat; */
+    
+}
+img{
+    /* float: left; */
+
+}
+#logo{
+    margin-top: 30px;
+    
+    width: 50px;
+    
+
+}
+header{
+    text-align: center;
+    background-color: #1D1D1D;
+    color: white;
+    padding-bottom: 30px;
+}
+section{
+    text-align: center;
+}
+nav{
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 3px 1px -1px rgba(0, 0, 0, 0.5);
+    font-size: 1,1em;
+    padding: 15px;
+   
+
+
+    /* clear: both; */
+}
+
+
+
+
+h1{
+    font-family:'Noto+Sans+Display', sans-serif ;
+    /* pour suprimer lespace du haut  */
+    margin-top: 0%; 
+    padding-top: 30px;
+
+    /* opacity: ; */
+    /* prend une valeur entre 0 et 1 ; oon ne vois plus l'element */
+    border-bottom: 1px black solid;
+    /* box-shadow: 0px 0px 0px black; les ombres */
+    text-shadow: 2px 2px 0px rgb(216, 137, 19);
+
+}
+h1:hover {
+    color: rosybrown;
+}
+h2{
+   font-family: 'Libre+Baskerville';
+   font-size: 1.5em;
+   border-radius: 10px 10px;
+   width: 400px;
+   /* il a centrer lelement */
+   margin: auto;
+   /* pour cacher ce qui depasse */
+   /* overflow:hidden ; */
+
+   /* border-radius: 10px / 30px; courbe */
+   /* border radius accmpagne le border */
+   word-wrap: break-word;
+/* au cas ou on depasse les 400px casse. */
+
+}
+h3:before{
+    content: "<<";
+    color: gray;
+}
+h3{
+    font-size: 1.5em;
+    /* clear: both; */
+    /* pour annuler le float */
+    text-transform: uppercase ;
+}
+h3:after{
+    content: ">>";
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:focus{
+    color: red;
+}
+a:visited{
+    color:rgb(49, 13, 175);
+}
+
+
+ul{
+    padding: 0;
+    /* pour suprimer les decalage de ul */
+    /* pour suprimer le marin */
+    display: inline;
+
+}
+li {
+    display: inline;
+    list-style-type:none ;
+        /* pour suprimer les.. */
+    margin: 10px;
+    /* lespace entre les elements */
+
+}
+li:hover{
+    font-weight: bold;
+}
+/* a[title="contact"] {
+    display: block;
+} */
+
+/* class */
+
+.separator{
+    width: 40px;
+    height: 1px;
+    margin: 15px auto;
+    display: block;
+    background-color: #999999;
+
+}
+
+.bienvenue{
+    color: rgb(8, 8, 8);
+    
+}
+.contener{
+    width: 80%;
+    /* pour centrer la page */
+    margin: auto;
+
+}
+.projet{
+    width: 400px;
+    margin: 30px;
+    display: inline-block;
+    /* a la ligne et aussi a la fois haut et bas */
+    background-color: white;
+    padding-bottom: 15px;
+    border: 0 black solid;
+    border-radius: 10px ;
+    /* les allantour */
+    overflow: hidden;
+    /* cacher ce qui depasse */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    /* cope open */
+
+}
+.projet:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: 0.3s;
+}
+
+.projet img{
+    min-width: 400px;
+    height: 266px;
+
+
+}
+.picture{
+    width: 400px;
+    height: 266px;
+    overflow: hidden; /*pour cacher  */
+    margin-bottom: 15px;
+
+
+}
+.projet .date-project{
+    font-size: 0.7em;
+
+}
+.projet span{
+    text-align: center;
+    display: block;     /* pour mettre les span haut et bas */
+    text-transform: uppercase;
+}
+
+/* id */
+#projets{
+display: flex ;
+}
+#contact{
+   
+}
+#contact {
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+
+p{
+    font-family: RineghanRegular, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Helvetica, sans-serif;
+    /* text-align: justify; */
+}
+
+footer{
+    background-color: #1D1D1D;
+    color: white;
+    font-weight: bold; 
+    text-align: center;
+    /* gras pour annuler normal */
+    font-style: italic;
+    /* pour italic */
+    /* text-decoration: ; */
+    /*  souligner none etc*/
+    padding: 15px;
+}
+*{
+    box-sizing: border-box;
+    /* la taille de la boite cest les bordues de la boite a cause des padding*/
+}
+
+/* police personalisée sur dafont*/
+
+@font-face {
+    font-family: 'RineghanRegular' ;
+    src: url(../src/RineghanRegular.ttf) format('truetype');
+}
